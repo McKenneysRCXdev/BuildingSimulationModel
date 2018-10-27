@@ -3862,6 +3862,7 @@ class waterSystemDP:
         return self.analogInputPoint.logPoint(logAsJSON)
 
 class variableVolumeHeater:#RL created this
+   #Don't know what to do here
     def __init__(self, designAirflow, parentDevice=None, outputName="VAVHeater", logValue=True, setUpWorking=None):
         self.logValue = logValue
         self.parentDevice = parentDevice
